@@ -1,0 +1,136 @@
+#wrap{
+	width:820px;
+	margin: 0 auto;
+	text-align: right;
+	margin-top: 50px;
+	padding: 5px;
+	background: transparent;
+	font-size: 25px;
+	line-height: 16px;
+}
+canvas {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+body{
+	padding: 10px;
+	background: linear-gradient(-45deg, #bf0603ff, #f95738ff,  #2d848aff, #0d3b66ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+#wrap .cont_details fieldset,.cont_order fieldset{
+	margin:20px;
+	padding:30px;
+  
+    border-radius: 10px;
+}
+#cont_order{
+	display: inline-block;
+}
+
+h1{
+	color: white;
+	text-align: center;
+
+}
+#innerwrap{
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 8px;
+	padding: 5px;
+	background: #0d3b66ff;
+	font-size: 25px;
+
+	line-height: 16px;
+	opacity: 0.75;
+}
+#loginwrap{
+	background: transparent;
+
+}
+.row{
+  display: flex;
+text-indent:1em;
+}
+.column{
+	flex:50%;
+	
+}
+.split{
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+.left {
+	left:0;
+	background: clear;
+}
+.right{
+	right: 0;
+	background-color: clear;
+}
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+.slideshow-container{
+	max-width: 40%;
+	position: relative;
+	margin: auto;
+}
+.text{
+	color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}.fade {
+  animation-name: fade;
+  animation-duration: 3.8s;
+}
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
