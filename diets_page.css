@@ -2,7 +2,6 @@ body {
 	background: linear-gradient(-45deg, #f5f5f5ff,  #2d848aff, #0d3b66ff);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
     font-family: 'Montserrat', sans-serif !important;
 }
 img {
