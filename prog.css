@@ -1,0 +1,59 @@
+body {
+	background: linear-gradient(-45deg, #f5f5f5ff,  #2d848aff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+
+.btn.btn-dark{
+    background: linear-gradient(-45deg, #2d848aff, #0d3b66ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    color:#f5f5f5ff;
+}
+.card-title{
+    color:#bf0603ff;
+    font-weight: bold;
+}
+.card-text{
+    color:#0d3b66ff;
+    font-style: italic;
+}
+.row.align-items-center.justify-content-between{
+    font-family: 'Montserrat' sans-serif;
+    color:#0d3b66ff;
+
+}
+#recipesection{
+    background-color: #0d3b66ff;
+    color:#f5f5f5ff;
+    text-align: center;
+}
+.col-md.p-5{
+    font-family: 'Montserrat' sans-serif;
+    color:#f5f5f5ff;
+}
+.col-md.p-5.text-dark{
+    font-family: 'Montserrat' sans-serif;
+    color:#0d3b66ff;
+}
+.btn.btn-light.mt-3{
+    font-family: 'Montserrat' sans-serif;
+    background: linear-gradient(-45deg, #bf0603ff, #f95738ff,  #2d848aff, #0d3b66ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    color:#f5f5f5ff;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

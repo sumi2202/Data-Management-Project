@@ -1,0 +1,70 @@
+body {
+	background: linear-gradient(-45deg, #f5f5f5ff, #f5f5f5ff, #f95738ff, rgb(193, 33, 1));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    font-family: 'Montserrat', sans-serif !important;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+video {
+    position: relative;
+    width:80%;
+    top: 3;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn.btn-dark{
+    background: linear-gradient(-45deg, #2d848aff, #0d3b66ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    color:#f5f5f5ff;
+}
+.card-title.mb-3{
+    color:#0d3b66ff;
+    font-weight: bold;
+}
+.card-text{
+    color:#0d3b66ff;
+    font-style: italic;
+}
+.row.align-items-center.justify-content-between{
+    font-family: 'Montserrat' sans-serif;
+    color:#0d3b66ff;
+
+}
+#exersection{
+    background-color: #f95738ff;
+    color:#f5f5f5ff;
+    text-align: center;
+}
+.col-md.p-5{
+    font-family: 'Montserrat' sans-serif;
+    color:#f5f5f5ff;
+}
+.col-md.p-5.text-dark{
+    font-family: 'Montserrat' sans-serif;
+    color:#0d3b66ff;
+}
+.btn.btn-light.mt-3{
+    font-family: 'Montserrat' sans-serif;
+    background: linear-gradient(-45deg, #bf0603ff, #f95738ff,  #2d848aff, #0d3b66ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    color:#f5f5f5ff;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

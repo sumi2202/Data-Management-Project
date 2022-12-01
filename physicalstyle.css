@@ -1,0 +1,58 @@
+.bgpicP.p-5.text-center.text-sm-start {
+    background-image: url('img/running.jpg');
+    background-position: right;
+    background-size: contain;
+    background: linear-gradient(#0d3b66ff, #0d3b66ff,#2d848aff);
+    color:#f5f5f5ff;
+}
+body {
+	background: linear-gradient(-45deg, #f5f5f5ff, #f95738ff, #f5f5f5ff, #2d848aff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.btn.btn-dark{
+    background: linear-gradient(-45deg, #2d848aff, #0d3b66ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    color:#f5f5f5ff;
+}
+.card-title{
+    color:#bf0603ff;
+    font-weight: bold;
+}
+.card-text{
+    color:#0d3b66ff;
+    font-style: italic;
+}
+input[type="range"]{
+    filter: hue-rotate(-25deg);
+
+}
+.d-inline-block.mb-2.text-success{
+    font-family: 'Montserrat' sans-serif;
+    color:#f95738ff;
+}
+.mb-0{
+    font-family: 'Montserrat' sans-serif;
+    font-weight: bolder;
+    color:#0d3b66ff;
+}
+.btn.btn-light.mt-3{
+    font-family: 'Montserrat' sans-serif;
+    background: linear-gradient(-45deg, #bf0603ff, #f95738ff,  #2d848aff, #0d3b66ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    color:#f5f5f5ff;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
