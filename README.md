@@ -3,6 +3,10 @@
 ### Group 24 - Meliora 
 A wellness website that tracks several aspects of health based on relational data that is inputted by users. Maintaining inclusivity and wellbeing as a priority, Meliora keeps track the progression of users in categories such as physical goals, sleep, diet, mood, and sleep. Users are able to access useful tips, articles, and videos in the resource pages that exist within the website.
 
+### Installation/Execution Instructions
+To successfully run Meliora, please ensure all files are downloaded and are in the same directory. This website supports the Windows OS. As there are PHP files, there should be a local server running on the user's machine. Please place the program files in the user's local server to run.
+
+
 ### Contribution Table
 
 | **Name**                   | **Percentage (%) of Contribution** |
